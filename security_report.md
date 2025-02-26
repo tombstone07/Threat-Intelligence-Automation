@@ -1,7 +1,7 @@
 # **Security Report: Threat Intelligence & Network Traffic Analysis**
 
 ## **1. Introduction**
-This report presents a **detailed security analysis** of network traffic extracted from a **PCAP file**. The objective is to **detect potential threats, correlate findings with threat intelligence feeds, and recommend appropriate mitigation measures**.  
+This report presents a **detailed security analysis** of network traffic extracted from a **PCAP file** (). The objective is to **detect potential threats, correlate findings with threat intelligence feeds, and recommend appropriate mitigation measures**.  
 
 The analysis was conducted using **network forensic techniques** and **Threat Intelligence APIs (AbuseIPDB, VirusTotal, and AlienVault OTX)** to verify malicious activity.
 
@@ -122,3 +122,6 @@ The security analysis has identified **multiple high-risk and critical threats**
 
 🚀 **By implementing the recommended security measures, we can significantly reduce the attack surface and strengthen the network's security posture.**  
 
+
+
+++Compiled by: BumiTech💯️
