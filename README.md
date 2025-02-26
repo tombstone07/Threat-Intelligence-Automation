@@ -1,4 +1,4 @@
-# **Threat Intelligence Automation - README**
+**# **Threat Intelligence Automation - README**
 
 ## **1. Introduction**
 This project is a **Python security analysis tool** designed to:  
@@ -21,48 +21,50 @@ Ensure you have the following installed:
 ### **2.2 Installation**
 #### **Step 1: Update Your System**
 Before installing any packages, update your system:
-```bash
-sudo apt update && sudo apt upgrade -y
-
-Step 2: Install TShark
 bash
-sudo apt install tshark -y
+**sudo apt update && sudo apt upgrade -y
 
-
-Step 3: Install Python Virtual Environment
+#### **Step 2: Install TShark**
 bash
-sudo apt install python3-venv -y
+``sudo apt install tshark -y``
 
 
-Step 4: Set Up Virtual Environment
+#### **Step 3: Install Python Virtual Environment**
 bash
-python3 -m venv my_env
-source my_env/bin/activate
+``sudo apt install python3-venv -y``
 
 
-Step 5: Install Python Dependencies
+#### **Step 4: Set Up Virtual Environment**
+bash
+``python3 -m venv my_env
+source my_env/bin/activate``
+
+
+#### **Step 5: Install Python Dependencies**
 bash
 pip install pyshark requests
-3. How to Run the Project
 
 
-Step 1: Place the PCAP File
+## **3. How to Run the Project**
+
+
+#### **Step 1: Place the PCAP File**
 Ensure you have the PCAP file to analyze.
-Rename it to sample.pcap (2022-MTA-workshop-exercise-5-of-5.pcap) in our case, or update the script with the correct filename.
+Rename it to sample.pcap (``2022-MTA-workshop-exercise-5-of-5.pcap``) in our case, or update the script with the correct filename.
 
-Step 2: Run the Python Script
+#### **Step 2: Run the Python Script**
 bash
-python threat_analysis.py
+``python threat_analysis.py``
 
 
-Step 3: View the Results
+#### **Step 3: View the Results**
 The analysis is saved in a detailed text file:
 bash
-cat threat_results.txt
+``cat threat_results.txt``
 
 
 
-4. How the Project Works
+## **4. How the Project Works**
 The script performs the following tasks:
 
 1️⃣ Extracts network metadata from the PCAP file:
@@ -83,9 +85,10 @@ Detailed threat intelligence reports
 A short-form summary for quick risk assessment
 
 
-5. Sample Output (threat_results.txt)
+## **5. Sample Output (threat_results.txt)**
 yaml
 ### Threat Intelligence Analysis Report ###
+
 
 [+] Top Source & Destination IPs:
 10.5.31.139: 1774 occurrences
@@ -120,32 +123,32 @@ AlienVault OTX: {"found": false}
 
 
 
-6. Troubleshooting
+## **6. Troubleshooting**
 PCAP File Not Processing
 ✔️ Ensure TShark is installed:
 bash
-tshark -v
+``tshark -v``
 
 ✔️ If pyshark fails, reinstall tshark:
 bash
-sudo apt install tshark -y
+``sudo apt install tshark -y``
 
 Permission Errors While Running Scripts
 ✔️ Run with sudo:
 bash
-sudo python threat_analysis.py
+``sudo python threat_analysis.py``
 
 Virtual Environment Not Activating
 ✔️ Use:
 bash
-source my_env/bin/activate
+``source my_env/bin/activate``
 
 
 How Often Should I Run This Analysis?
 ✔️ Weekly for continuous monitoring.
 ✔️ Update threat feeds before running:
 bash
-pip install --upgrade requests
+``pip install --upgrade requests``
 
 
 
@@ -153,8 +156,8 @@ pip install --upgrade requests
 Task	Command
 Analyze PCAP file	python threat_analysis.py
 View Results	cat threat_results.txt
-Check Installed Dependencies	pip list
-Activate Virtual Environment	source my_env/bin/activate
+Check the Installed Dependencies	``pip list``
+Activate Virtual Environment	``source my_env/bin/activate``
 
 
 8. Next Steps & Recommendations
@@ -173,6 +176,7 @@ By following this guide, all users can detect cyber threats, analyze network act
 🚀 **Project is complete!** 😊
 
 
-💯️@BUMI TECH@💯️
+#### <ins>**💯️@BUMI TECH@💯️** </ins>
 
 
+**
