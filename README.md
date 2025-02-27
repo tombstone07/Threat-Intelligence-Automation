@@ -50,7 +50,7 @@ pip install pyshark requests
 
 #### **Step 1: Place the PCAP File**
 Ensure you have the PCAP file to analyze.
-Rename it to sample.pcap (``2022-MTA-workshop-exercise-5-of-5.pcap``) in our case, or update the script with the correct filename.
+Rename it to ``sample.pcap`` (``2022-MTA-workshop-exercise-5-of-5.pcap``) in our case, or update the script with the correct filename.
 
 #### **Step 2: Run the Python Script**
 bash
@@ -152,7 +152,7 @@ bash
 
 
 
-7. Summary of Tasks
+## **7. Summary of Tasks**
 Task	Command
 Analyze PCAP file	python threat_analysis.py
 View Results	cat threat_results.txt
@@ -160,12 +160,15 @@ Check the Installed Dependencies	``pip list``
 Activate Virtual Environment	``source my_env/bin/activate``
 
 
-8. Next Steps & Recommendations
+
+## **8. Next Steps & Recommendations**
 ✔️ Block malicious IPs identified in threat feeds.
 ✔️ Monitor network activity for unusual behavior.
 ✔️ Regularly update and re-run this analysis to stay ahead of threats.
 
-9. Conclusion
+
+
+## **9. Conclusion**
 This project provides a complete automated solution for PCAP traffic analysis and threat intelligence correlation.
 
 By following this guide, all users can detect cyber threats, analyze network activity, and take preventive actions. 🚀
