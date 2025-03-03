@@ -19,21 +19,17 @@ This project automates **PCAP file analysis, threat intelligence correlation, an
 ## **3. Installation & Setup**  
 
 ### **Step 1: Update System**  
-```bash
 ``sudo apt update && sudo apt upgrade -y``
 
 ### **Step 2: Install TShark**
-```bash
 ``sudo apt install tshark -y``
 
 ### **Step 3: Set Up Python Virtual Environment**
-```bash
 ``sudo apt install python3-venv -y 
 python3 -m venv my_env  
 source my_env/bin/activate``
  
 ### **Step 4: Install Required Python Libraries**
-```bash
 ``pip install --break-system-packages pyshark requests``
 
 ---
@@ -43,14 +39,12 @@ source my_env/bin/activate``
 Ensure your .pcap files are stored in the working directory.
 
 ### **Step 2: Execute the Python Script**
-```bash
-`python threat_analysis.py`
+``python threat_analysis.py``
 The script will list all available PCAP files in the folder.
 Select a file by entering the corresponding index number.
 
 ### **Step 3: View the Generated Security Report**
-```bash
-'cat security_report.md'
+``cat security_report.md``
 
 
 ## **5. How the Analysis Works**
@@ -70,11 +64,9 @@ Computes SHA256 hashes and checks against VirusTotal
 Includes all findings, threat intelligence results, and recommendations.**
 
 
-6. Sample Output (security_report.md)
-markdown
-Copy
-Edit
-# **Security Report: Threat Intelligence & Network Analysis**  
+## **6. Sample Output (security_report.md)**
+
+``Security Report: Threat Intelligence & Network Analysis**  
 
 ## **1. Network Findings**  
 ### **Top 10 Source & Destination IPs**  
@@ -122,7 +114,7 @@ Edit
 ✔️ This project successfully **automates cybersecurity threat detection**.  
 ✔️ **Threat intelligence correlation** identified **malicious and suspicious IPs**.  
 ✔️ **The final security report** provides **detailed analysis & actionable recommendations**.  
-✔️ The tool can be used in **incident response, forensic investigations, and proactive security monitoring**.  
+✔️ The tool can be used in **incident response, forensic investigations, and proactive security monitoring**. ``
 
 ---
 
@@ -130,42 +122,37 @@ Edit
 
 ### **PCAP File Not Processing**  
 ✔️ Ensure **TShark is installed**:  
-```bash
-tshark -v
-✔️ If pyshark fails, reinstall TShark:
+``tshark -v``
 
-bash
-Copy
-Edit
-sudo apt install tshark -y
+✔️ If pyshark fails, reinstall TShark:
+``sudo apt install tshark -y``
+
 Permission Errors While Running Scripts
 ✔️ Run with sudo if needed:
+``sudo python threat_analysis.py``
 
-bash
-Copy
-Edit
-sudo python threat_analysis.py
 Virtual Environment Not Activating
 ✔️ Use:
+``source my_env/bin/activate``
 
-bash
-Copy
-Edit
-source my_env/bin/activate
-8. Summary of Commands
+
+## **8. Summary of Commands**
 Task	Command
-Run the script	python threat_analysis.py
-View results	cat security_report.md
-Check installed dependencies	pip list
-Activate virtual environment	source my_env/bin/activate
-9. Next Steps & Recommendations
+Run the script	``python threat_analysis.py``
+View results	``cat security_report.md``
+Check installed dependencies	``pip list``
+Activate virtual environment	``source my_env/bin/activate``
+
+
+## **9. Next Steps & Recommendations**
 ✔️ Block malicious IPs identified in threat feeds
 ✔️ Monitor network activity for unusual behavior
 ✔️ Regularly update threat feeds & re-run analysis
 
-10. Conclusion
+
+## **10. Conclusion**
 This project provides a fully automated cybersecurity tool for PCAP traffic analysis, threat intelligence correlation, and file signature verification.
 
 🚀 By following this guide, users can detect cyber threats, analyze network activity, and take proactive security measures.
 
-💯 @BUMI TECH 💯
+# **💯 @BUMI TECH 💯**
