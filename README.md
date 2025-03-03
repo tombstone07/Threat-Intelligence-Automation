@@ -49,20 +49,24 @@ Select a file by entering the corresponding index number.
 ---
 
 ## **5. How the Analysis Works**
-**1️⃣ Extracts Network Metadata from PCAP
-Top Source & Destination IPs
-Protocols Used in Network Traffic
-2️⃣ Detects Suspicious HTTP Activity
-Extracts User-Agent Strings
-Identifies Unusual HTTP Requests
-3️⃣ Correlates with Threat Intelligence Feeds
-Queries AbuseIPDB, VirusTotal, and AlienVault OTX
-Identifies blacklisted & malicious IPs
-4️⃣ Extracts Files & Performs File Signature Checks
-Identifies transferred files via SMB, FTP, HTTP
-Computes SHA256 hashes and checks against VirusTotal
-5️⃣ Generates ('security_report.md')
-Includes all findings, threat intelligence results, and recommendations.**
+**1️⃣ Extracts Network Metadata from PCAP:**
+*-Top Source & Destination IPs*
+*-Protocols Used in Network Traffic*
+
+**2️⃣ Detects Suspicious HTTP Activity**
+*-Extracts User-Agent Strings*
+*-Identifies Unusual HTTP Requests*
+
+**3️⃣ Correlates with Threat Intelligence Feeds**
+*-Queries AbuseIPDB, VirusTotal, and AlienVault OTX*
+*-Identifies blacklisted & malicious IPs*
+
+**4️⃣ Extracts Files & Performs File Signature Checks**
+*-Identifies transferred files via SMB, FTP, HTTP*
+*-Computes SHA256 hashes and checks against VirusTotal*
+
+**5️⃣ Generates ('security_report.md')**
+*-Includes all findings, threat intelligence results, and recommendations.*
 
 ---
 
