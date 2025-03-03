@@ -20,43 +20,40 @@ This project automates **PCAP file analysis, threat intelligence correlation, an
 
 ### **Step 1: Update System**  
 ```bash
-'sudo apt update && sudo apt upgrade -y'
+`sudo apt update && sudo apt upgrade -y`
 
 ### **Step 2: Install TShark**
 ```bash
-Copy
-Edit
-sudo apt install tshark -y
-Step 3: Set Up Python Virtual Environment
-bash
-Copy
-Edit
-sudo apt install python3-venv -y  
+`sudo apt install tshark -y`
+
+### **Step 3: Set Up Python Virtual Environment**
+```bash
+'sudo apt install python3-venv -y 
 python3 -m venv my_env  
-source my_env/bin/activate  
-Step 4: Install Required Python Libraries
-bash
-Copy
-Edit
-pip install --break-system-packages pyshark requests
-4. How to Run the Project
-Step 1: Place PCAP Files in the Directory
+source my_env/bin/activate'
+ 
+### **Step 4: Install Required Python Libraries**
+```bash
+'pip install --break-system-packages pyshark requests'
+
+
+## **4. How to Run the Project**
+### **Step 1: Place PCAP Files in the Directory**
 Ensure your .pcap files are stored in the working directory.
 
-Step 2: Execute the Python Script
-bash
-Copy
-Edit
-python threat_analysis.py
+### **Step 2: Execute the Python Script**
+```bash
+`python threat_analysis.py`
 The script will list all available PCAP files in the folder.
 Select a file by entering the corresponding index number.
-Step 3: View the Generated Security Report
-bash
-Copy
-Edit
-cat security_report.md
-5. How the Analysis Works
-1️⃣ Extracts Network Metadata from PCAP
+
+### **Step 3: View the Generated Security Report**
+```bash
+'cat security_report.md'
+
+
+## **5. How the Analysis Works**
+**1️⃣ Extracts Network Metadata from PCAP
 Top Source & Destination IPs
 Protocols Used in Network Traffic
 2️⃣ Detects Suspicious HTTP Activity
@@ -68,8 +65,10 @@ Identifies blacklisted & malicious IPs
 4️⃣ Extracts Files & Performs File Signature Checks
 Identifies transferred files via SMB, FTP, HTTP
 Computes SHA256 hashes and checks against VirusTotal
-5️⃣ Generates security_report.md
-Includes all findings, threat intelligence results, and recommendations
+5️⃣ Generates ('security_report.md')
+Includes all findings, threat intelligence results, and recommendations.**
+
+
 6. Sample Output (security_report.md)
 markdown
 Copy
