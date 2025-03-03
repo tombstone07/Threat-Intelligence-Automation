@@ -20,22 +20,23 @@ This project automates **PCAP file analysis, threat intelligence correlation, an
 
 ### **Step 1: Update System**  
 ```bash
-`sudo apt update && sudo apt upgrade -y`
+``sudo apt update && sudo apt upgrade -y``
 
 ### **Step 2: Install TShark**
 ```bash
-`sudo apt install tshark -y`
+``sudo apt install tshark -y``
 
 ### **Step 3: Set Up Python Virtual Environment**
 ```bash
-'sudo apt install python3-venv -y 
+``sudo apt install python3-venv -y 
 python3 -m venv my_env  
-source my_env/bin/activate'
+source my_env/bin/activate``
  
 ### **Step 4: Install Required Python Libraries**
 ```bash
-'pip install --break-system-packages pyshark requests'
+``pip install --break-system-packages pyshark requests``
 
+---
 
 ## **4. How to Run the Project**
 ### **Step 1: Place PCAP Files in the Directory**
