@@ -46,6 +46,7 @@ Select a file by entering the corresponding index number.
 ### **Step 3: View the Generated Security Report**
 ``cat security_report.md``
 
+---
 
 ## **5. How the Analysis Works**
 **1️⃣ Extracts Network Metadata from PCAP
@@ -63,6 +64,7 @@ Computes SHA256 hashes and checks against VirusTotal
 5️⃣ Generates ('security_report.md')
 Includes all findings, threat intelligence results, and recommendations.**
 
+---
 
 ## **6. Sample Output (security_report.md)**
 ```
@@ -136,6 +138,7 @@ Virtual Environment Not Activating
 ✔️ Use:
 ``source my_env/bin/activate``
 
+---
 
 ## **8. Summary of Commands**
 Task	Command
@@ -144,16 +147,20 @@ View results	``cat security_report.md``
 Check installed dependencies	``pip list``
 Activate virtual environment	``source my_env/bin/activate``
 
+---
 
 ## **9. Next Steps & Recommendations**
 ✔️ Block malicious IPs identified in threat feeds
 ✔️ Monitor network activity for unusual behavior
 ✔️ Regularly update threat feeds & re-run analysis
 
+---
 
 ## **10. Conclusion**
 This project provides a fully automated cybersecurity tool for PCAP traffic analysis, threat intelligence correlation, and file signature verification.
 
 🚀 By following this guide, users can detect cyber threats, analyze network activity, and take proactive security measures.
+
+---
 
 # **💯 @BUMI TECH 💯**
