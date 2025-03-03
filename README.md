@@ -65,8 +65,8 @@ Includes all findings, threat intelligence results, and recommendations.**
 
 
 ## **6. Sample Output (security_report.md)**
-
-``Security Report: Threat Intelligence & Network Analysis**  
+```
+### **Security Report: Threat Intelligence & Network Analysis**  
 
 ## **1. Network Findings**  
 ### **Top 10 Source & Destination IPs**  
@@ -114,7 +114,8 @@ Includes all findings, threat intelligence results, and recommendations.**
 ✔️ This project successfully **automates cybersecurity threat detection**.  
 ✔️ **Threat intelligence correlation** identified **malicious and suspicious IPs**.  
 ✔️ **The final security report** provides **detailed analysis & actionable recommendations**.  
-✔️ The tool can be used in **incident response, forensic investigations, and proactive security monitoring**. ``
+✔️ The tool can be used in **incident response, forensic investigations, and proactive security monitoring**.
+```
 
 ---
 
